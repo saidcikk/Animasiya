@@ -1,0 +1,48 @@
+/* body{
+    background-color: black; */
+
+
+
+.box{
+    width: 400px;
+    height: 40px;
+    background-color: black;
+    border-radius: 20px;
+    display: flex ;
+    justify-content: center;
+}
+.box1{
+    width: 37px;
+    height: 18px;
+    background-color: brown;
+    border-radius: 20px;
+    padding: 10px;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-name: animation_Name;
+    animation-fill-mode: forwards;
+    animation-delay: 3;
+    position: absolute;
+    margin: 80px;
+}
+@keyframes animation_Name {
+    0%{
+        top: 0;
+        left: 0;
+        background-color: red;
+    }
+    50%{
+        top: 0px;
+        left: 270px ;background-color: green;
+
+    }
+    100%{
+        top: 0;
+        left: 270px;
+        background-color: rgb(88, 231, 88);
+    }
+
+}
+.Text{
+    color: rgb(3, 3, 3);
+}
